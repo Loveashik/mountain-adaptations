@@ -1,0 +1,48 @@
+Using: /home/asha/.etetoolkit/ext_apps-latest/bin/Slr
+Using: /home/asha/.etetoolkit/ext_apps-latest/bin/codeml
+
+Running CodeML/Slr (6 CPUs)
+  - processing model b_neut (b_neut~170bb3d5df67e3714687a3e3e606d5df)
+       marking branches 2, 3, 6
+
+          (rufocanus,tuvinicus #3,(((macrotis #2,glareolus),rutilus2),lemminus2 #1));
+
+  - processing model b_free (b_free~4b56b6b0f3db82c393e46bb1d09fb545)
+       marking branches 2, 3, 6
+
+          (rufocanus,tuvinicus #3,(((macrotis #2,glareolus),rutilus2),lemminus2 #1));
+
+  - processing model M0 (M0~4501cea75a22ef0cd62f8fc379877740)
+
+LRT
+
+                                         Null model |                             Alternative model | p-value
+   =================================================|===============================================|============
+      b_neut.2_3_6~6d8e5e6d3a14fa8b5b8d413acd675e74 | b_free.2_3_6~1f5a6da6f64bc076dfe90662ac34d0b0 | 0.141813
+                M0~4501cea75a22ef0cd62f8fc379877740 | b_neut.2_3_6~6d8e5e6d3a14fa8b5b8d413acd675e74 | 0.052812
+                M0~4501cea75a22ef0cd62f8fc379877740 | b_free.2_3_6~1f5a6da6f64bc076dfe90662ac34d0b0 | 0.045188*
+
+SUMMARY BY MODEL
+
+ - Model b_neut.2_3_6-1_2_3
+   * Marked branches
+      (rufocanus,tuvinicus #3,(((macrotis #2,glareolus),rutilus2),lemminus2 #1));
+
+        Branches  =>   omega
+      background  =>   0.229
+              #1  =>   0.894
+              #3  =>   1.000
+              #2  =>   0.195
+
+ - Model b_free.2_3_6-1_2_3
+   * Marked branches
+      (rufocanus,tuvinicus #3,(((macrotis #2,glareolus),rutilus2),lemminus2 #1));
+
+        Branches  =>   omega
+              #2  =>   0.197
+              #3  => 999.000
+              #1  =>   0.922
+      background  =>   0.227
+
+ - Model M0
+   * Average omega for all tree: 0.297
