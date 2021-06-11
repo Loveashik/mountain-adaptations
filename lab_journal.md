@@ -512,7 +512,7 @@ for f in results/ete/data_clethrionomyini/; do  ete3 evol -t data/tree/clethrion
 
 Пример генов, для которых показано действие отбора с высоким уровнем значимости:
 
-![sign_genes](/home/asha/ZIN/magistrat/RNA/proteinortho/mountain-adaptations/sign_genes.png)
+![sign_genes](results/sign_genes.png)
 
 ###### ПРИЛОЖЕНИЕ
 
